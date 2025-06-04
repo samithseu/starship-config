@@ -9,7 +9,6 @@ format = """$os$username$directory$git_branch$git_status
 [character]
 success_symbol = ''
 error_symbol = ''
-
 # ---
 
 [os]
@@ -21,10 +20,9 @@ Windows = ''
 Arch = '󰣇'
 Ubuntu = ''
 Macos = '󰀵'
-
 # ---
 
-# Shows the username
+# Username
 [username]
 style_user = 'cyan bold'
 style_root = 'black bold'
@@ -32,7 +30,7 @@ format = '[$user]($style) '
 disabled = false
 show_always = true
 
-# Shows current directory
+# Current dir
 [directory]
 truncation_length = 1
 truncation_symbol = '…/'
@@ -41,7 +39,7 @@ read_only_style = '197'
 read_only = '  '
 format = 'at [$path]($style)[$read_only]($read_only_style) '
 
-# Shows current git branch
+# Git branch
 [git_branch]
 symbol = ' '
 format = 'via [$symbol$branch]($style)'
@@ -49,7 +47,7 @@ format = 'via [$symbol$branch]($style)'
 truncation_symbol = '…/'
 style = 'bold green'
 
-# Shows current git status
+# Git status
 [git_status]
 format = '[$all_status$ahead_behind]($style) '
 style = 'bold green'
@@ -65,7 +63,7 @@ staged = '[++\($count\)](green)'
 renamed = '襁 '
 deleted = ' '
 
-
+# additional disables
 [vagrant]
 disabled = true
 
