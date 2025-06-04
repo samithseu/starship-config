@@ -5,5 +5,5 @@
 ## Installation
 
 ```powershell
-iwr "https://github.com/samithseu/starship-config/raw/main/starship.toml" -OutFile $HOME/starship.toml
+iwr "https://github.com/samithseu/starship-config/raw/main/starship.toml" -OutFile $HOME/.config/starship.toml
 ```
